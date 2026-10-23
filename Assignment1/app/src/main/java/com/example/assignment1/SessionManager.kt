@@ -1,5 +1,7 @@
 package com.example.assignment1
 
 object SessionManager {
-    var isLogged = false
+    var currentUser: User? = null
+    val isLogged: Boolean
+        get() = currentUser != null
 }

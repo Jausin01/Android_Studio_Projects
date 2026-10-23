@@ -32,7 +32,6 @@ class HomeActivity : AppCompatActivity()
                 val intent = Intent(this, ProfileActivity::class.java)
                 startActivity(intent)
             } else {
-                // not logged in: open the login screen
                 val intent = Intent(this, LoginActivity::class.java)
                 startActivity(intent)
             }
